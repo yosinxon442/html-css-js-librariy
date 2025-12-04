@@ -1,5 +1,16 @@
 {
     "rewrites": [
       { "source": "/(.*)", "destination": "/index.html" }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          { "key": "og-image", "value": "" },
+          { "key": "twitter-card", "value": "none" },
+          { "key": "x-robots-tag", "value": "noimageindex" }
+        ]
+      }
     ]
   }
+  
