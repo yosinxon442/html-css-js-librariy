@@ -45,7 +45,6 @@ const Index = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">CodeQuiz</span>
             <br />
             <span className="text-foreground">Bilimingizni sinang</span>
           </h1>
